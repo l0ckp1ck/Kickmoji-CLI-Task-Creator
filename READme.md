@@ -1,4 +1,4 @@
-#CLI TASK CREATOR
+# CLI TASK CREATOR
 
 ## Test If You Have Python
   * Open CMD/Terminal and type python
@@ -12,7 +12,7 @@
 
 ## Running Creator
   1. Open CMD/Terminal
-  2. Type git clone url cli-task-creator
+  2. Type git clone https://github.com/l0ckp1ck/Kickmoji-CLI-Task-Creator.git cli-task-creator
   3. Type cd cli-task-creator
   4. Type python run.py 
 
