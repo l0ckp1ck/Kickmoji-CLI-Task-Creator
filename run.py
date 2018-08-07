@@ -3,7 +3,7 @@ import os
 
 os.system('clear')
 
-print('Kickmoji CLI Task Maker \nMade by Lockpick \n')
+print('Kickmoji CLI Task Creator \nMade by Lockpick \n')
 
 try:
     isin = raw_input('isInStock (TRUE or FALSE) : ')
