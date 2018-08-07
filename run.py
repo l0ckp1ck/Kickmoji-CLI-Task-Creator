@@ -24,14 +24,13 @@ except:
 
 tasks = []
 prof_id = 0
-count = 0 
-while (tc != 0):
+while (tc > 0):
     prof_id = prof_id + 1
+    count = 0
     for i in range(0,int(ppt)):
         tasks.append('{}~{}~{}~{}~{}~{}~{}~{}~{}~{}'.format(isin,nl,br,sr,size,mode,region,sku,proxy,prof_id))
         count = count + 1
     tc = tc - count
-
 
 try:
     with open('tasks.csv', 'w') as file:
